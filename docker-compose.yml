@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  caddyserver:
+    image: caddy
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: "unless-stopped"
+    volumes: 
+      - .:/var/www/html
+      - ./Caddyfile:/etc/caddy/Caddyfile

@@ -31,6 +31,7 @@ body {
 
 .logo-custom {
     max-height: 40px;
+    margin-top: -7px;
 }
 
 #menu {
@@ -204,11 +205,11 @@ h1::after {
   ===================================*/
 #faculty-sec {
     background-color: rgb(235, 198, 198);
-    color: #fff;
+    color:black;
 }
 
     #faculty-sec .header-line {
-        color: #fff;
+        color: black;
     }
 .faculty-div h4 {
     line-height:30px;
@@ -235,6 +236,7 @@ h1::after {
 
     .faculty-div img {
         border: 10px double #fff;
+        border-radius: 50px;
     }
 
 /*=====================================
